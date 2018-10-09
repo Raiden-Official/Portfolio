@@ -141,6 +141,7 @@ ul{
 /*nobody needs this little scrollbar corner, I mean really, get rid of it haha*/
 ::-webkit-scrollbar-corner       { display: none; height: 0px; width: 0px; }
 
-.navBar .col-sm-9{
-  position: sticky;
+
+.img-fluid{
+  padding-left: 20% !important;
 }
