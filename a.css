@@ -1,0 +1,56 @@
+
+#main{
+    padding: 0px;
+}
+#logo{
+    text-align: left;
+    text-decoration: none;
+    font-size: 44px;
+}
+#logoDiv{
+  padding: 15px;
+  margin: 0px;
+  border-radius: 0 !important;
+}
+#mainDiv{
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+}
+#leftDiv{
+  float: left;
+    width: 100%;
+}
+#rightDiv{
+    float: right;
+    width: 100%;
+}
+#contactInfo{
+  font-size: 16px;
+  background-color: F1F1F1;
+  margin: 0px;
+}
+.titles{
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.name{
+    margin: 0px;
+}
+.desc{
+
+}
+.footer1{
+  text-align: left;
+  float: left;
+  margin: 0px;
+  font-style: italic;
+  color: A4A4A4;
+}
+.footer2{
+  text-align: right;
+  float: right;
+  margin: 0px;
+  font-style: italic;
+  color: A4A4A4;
+}
