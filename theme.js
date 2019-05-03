@@ -1,6 +1,7 @@
 count = 1;
 
 function myfunc(){
+  alert("Please make sure cookies are enabled for this feature.");
   count = (count  + 1)%2;
   if(count == 1){
     document.body.style.background = 'white';
