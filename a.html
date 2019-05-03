@@ -1,7 +1,7 @@
 <head>
-  <title>first</title>
+  <title>Resume</title>
   <link rel="stylesheet" href="a.css" type="text/css">
-  <link rel="text/javascript" href="js.js">
+  <script src="a.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -16,11 +16,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onload="loadHome()">
   <!-- Title name and discription -->
-  <div class="container-fluid" id="main">
-      <div class="jumbotron" id="logoDiv" style="background: transparent !important;">
-        <h1 id="logo">Ashutosh Sharma</h1>
+  <div class="container-fluid main" id="main">
+      <div class="jumbotron logoDiv" id="logoDiv">
+        <a href="download.png" download="Resume"><h1 id="logo">Ashutosh Sharma</h1></a>
         <p>Career Objective :</p>
         <blockquote>
           <p>“To pursue a challenging career and be a part of progressive organization that gives
@@ -28,7 +28,7 @@
         </blockquote>
       </div>
   <!-- Dark bar for info -->
-  <div class="row" id="contactInfo">
+  <div class="row contactInfo" id="contactInfo">
     <!-- Email -->
     <div class="col-sm-4">
         <i class="fa fa-keyboard-o"></i> &nbsp; ashutoshsharma327@gmail.com
@@ -43,9 +43,9 @@
     </div>
   </div>
     <!-- Contents below contacts -->
-  <div class="container-fluid" id="mainDiv">
+  <div class="container-fluid mainDiv" id="mainDiv">
     <!-- Contents in left div -->
-      <div class="container-fluid"n id="leftDiv">
+      <div class="container-fluid leftDiv" id="leftDiv">
         <!-- Education table -->
 
         <h2 class="titles">Education</h2><hr style="height:1px;border:none;color:#333;background-color:#333;" />
@@ -88,7 +88,7 @@
       </div>
 <br>
     <!-- Contents in right div -->
-      <div class="container-fluid" id="rightDiv">
+      <div class="container-fluid rightDiv" id="rightDiv">
         <!-- Technical Skills -->
         <h2 class="titles">Technical Skills</h2><hr style="height:1px;border:none;color:#333;background-color:#333;" />
         <!-- C Programming -->
@@ -98,7 +98,7 @@
           </div>
           <div class="col-sm-9">
             <div class="progress">
-              <div class="progress-bar bg-dark" style="width:70%"></div>
+              <div class="progress-bar" style="width:70%"></div>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
           </div>
           <div class="col-sm-9">
             <div class="progress">
-              <div class="progress-bar bg-dark" style="width:80%"></div>
+              <div class="progress-bar" style="width:80%"></div>
             </div>
           </div>
         </div>
@@ -121,8 +121,8 @@
               Web Development (Front End and PHP)
           </div>
           <div class="col-sm-9">
-            <div class="progress">
-              <div class="progress-bar bg-dark" style="width:80%"></div>
+            <div class="progress border">
+              <div class="progress-bar" style="width:80%"></div>
             </div>
           </div>
         </div>
@@ -133,8 +133,8 @@
               Android app Development
           </div>
           <div class="col-sm-9">
-            <div class="progress">
-              <div class="progress-bar bg-dark" style="width:50%"></div>
+            <div class="progress border">
+              <div class="progress-bar" style="width:50%"></div>
             </div>
           </div>
         </div>
@@ -145,8 +145,8 @@
               iOS App Development
           </div>
           <div class="col-sm-9">
-            <div class="progress">
-              <div class="progress-bar bg-dark" style="width:60%"></div>
+            <div class="progress border">
+              <div class="progress-bar" style="width:60%"></div>
             </div>
           </div>
         </div>
@@ -157,8 +157,8 @@
               Operating Systems and IDEs
           </div>
           <div class="col-sm-9">
-              OS: Linux, Windows, MaxOS
-              &nbsp; IDEs: Pycharm, Android Studio, XCode, Firebase and collaborative tools like GitLab.
+              OS: Linux, Windows, MacOS
+              &nbsp; IDEs: Pycharm, Android Studio, XCode, Firebase and collaborative tools like Git.
           </div>
         </div>
 <br>

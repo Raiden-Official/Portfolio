@@ -1,34 +1,35 @@
 
-#main{
-    padding: 0px;
+.main{
+    padding: 0px !important;
 }
-#logo{
+.logo{
     text-align: left;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 44px;
 }
-#logoDiv{
+.logoDiv{
   padding: 15px;
   margin: 0px;
   border-radius: 0 !important;
+  background: transparent !important;
 }
-#mainDiv{
+.mainDiv{
     padding: 10px;
     width: 100%;
     margin: 0px;
 }
-#leftDiv{
+.leftDiv{
   float: left;
     width: 100%;
 }
-#rightDiv{
+.rightDiv{
     float: right;
     width: 100%;
 }
-#contactInfo{
+.contactInfo{
   font-size: 16px;
   background-color: F1F1F1;
-  margin: 0px;
+  margin: 0px !important;
 }
 .titles{
     margin-bottom: 14px;
@@ -75,3 +76,34 @@
 }
 /*nobody needs this little scrollbar corner, I mean really, get rid of it haha*/
 ::-webkit-scrollbar-corner       { display: none; height: 0px; width: 0px; }
+
+
+/*Dark background edits*/
+.blogoDiv{
+  padding: 15px;
+  margin: 0px !important;
+  border-radius: 0 !important;
+  background-color: black !important;
+  color: white !important;
+}
+.blogo{
+    text-align: left;
+    text-decoration: none;
+    font-size: 44px;
+    color: white !important;
+}
+.bmainDiv{
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.bcontactInfo{
+  font-size: 16px;
+  background-color: F1F1F1;
+  margin: 0px;
+}
+.progress-bar{
+  background-color: grey !important;
+}

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>aSHARMA</title>
+    <!-- Add css and js to the html -->
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -22,25 +23,25 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body onload="loadHome()">
     <div class="wrapper container-fluid">
       <div class="contentArea" id="me">
 
-        <div class="header row">
+        <div id="head" class="header row">
 
           <div class="logo col-sm-3">
             <ul class="items">
-              <li><a href="index.html" ><p id="nam">AshutoshSharma</p></a></li>
+              <li><a href="index.html" ><p>AshutoshSharma</p></a></li>
             </ul>
           </div>
           <div class="navBar col-sm-9">
-            <ul class="items">
+            <ul id="navItem" class="items">
               <li><a href="aboutMe.html">About Me</a></li>
               <li> | </li>
               <li><a href="funStuff.html">Fun Stuff</a></li>
               <li> | </li>
 
-              <li><a href="theme.html">Placeholder</a></li>
+              <li><a href="theme.html">Set theme</a></li>
               <li> | </li>
               <li><a href="a.html">Resume</a></li>
             </ul>
@@ -63,7 +64,6 @@
         <div class="leftFoot">
           Ashutosh Sharma - Programmer, Gamer and an all time tech enthusiast.
           Always looking for something fun to do!
-          (Back buttons to be added soon)
         </div>
         <div class="rightFoot">
           Say Hi!    <br>     ashutoshsharma327@gmail.com
